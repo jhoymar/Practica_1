@@ -3,8 +3,9 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Practica_1.Models
 {
-    public class FormaTicketViemModel
+    public class ValidationViewModel
     {
+
         public int Id { get; set; }
 
         public bool WasUsed { get; set; }
@@ -27,3 +28,5 @@ namespace Practica_1.Models
 
     }
 }
+
+
