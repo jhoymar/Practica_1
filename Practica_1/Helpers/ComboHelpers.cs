@@ -28,7 +28,7 @@ namespace Practica_1.Helpers
             list.Insert(0, new SelectListItem
             {
                 Value = "0",
-                Text = "[]",
+                Text = "[elija su entrada de preferencia]",
                
             });
 
